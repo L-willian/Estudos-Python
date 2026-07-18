@@ -2,11 +2,11 @@
 *
 
 # Permite arquivos .c
-!*.c
+!*.py
+
 
 # Permite markdown
 !*.md
-
 # Permite pastas
 !*/
 
