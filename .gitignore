@@ -1,0 +1,14 @@
+# Ignora todos os arquivos 
+*
+
+# Permite arquivos .c
+!*.c
+
+# Permite markdown
+!*.md
+
+# Permite pastas
+!*/
+
+# Permite o próprio gitignore
+!.gitignore
