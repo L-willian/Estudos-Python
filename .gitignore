@@ -1,12 +1,12 @@
 # Ignora todos os arquivos 
 *
 
-# Permite arquivos .c
+# Permite arquivos .py
 !*.py
-
 
 # Permite markdown
 !*.md
+
 # Permite pastas
 !*/
 

@@ -5,4 +5,4 @@ area_triangulo = (base * altura) / 2
 
 print(type(area_triangulo))
 
-print(f"A area do triangulo e: {area_triangulo}")
+print(f"Á área do triângulo é: {area_triangulo}")
