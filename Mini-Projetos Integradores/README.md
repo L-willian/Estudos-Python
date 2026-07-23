@@ -1,27 +1,30 @@
 # Mini-Projetos Integradores
 
-Projetos compactos que consolidam múltiplos conceitos de Python em aplicações pequenas e funcionais. Cada projeto serve como um laboratório para praticar estruturas de dados, I/O, funções e organização de código.
+Este repositório reúne projetos pequenos, porém funcionais, com foco na prática de conceitos fundamentais de Python. Cada aplicação foi desenvolvida como um exercício de consolidação de estruturas de dados, entrada e saída, funções e organização do código.
+
+## Objetivo
+
+O objetivo principal é servir como espaço de estudo e experimentação para integrar conceitos como:
+
+- funções;
+- listas e dicionários;
+- manipulação de entradas e saídas;
+- organização modular do código;
+- evolução do projeto para cenários mais próximos de produção.
 
 ## Projetos incluídos
 
-- `Sistema de Cadastro de Produtos.py` — Exemplo simples de gestão de estoque com operações de cadastro e listagem.
+- `Sistema de Cadastro de Produtos.py` — aplicação simples para gestão de estoque, com operações de cadastro e listagem de produtos.
 
-## Como executar
+## Executando o projeto
+
+A partir da raiz do repositório, utilize o comando abaixo:
 
 ```bash
 python "Mini-Projetos Integradores/Sistema de Cadastro de Produtos.py"
 ```
 
-## Possíveis melhorias
-
-- Persistência em arquivo (JSON/CSV) para manter os dados entre execuções.
-- Interface simples por linha de comando com menu e validação de entradas.
-- Transformar em pacote/ módulo para reutilização das funções (separar lógica de I/O).
-
 ## Objetivo
 
 Praticar integração de conceitos: funções, listas e dicionários, e pensar na evolução do código para produção (persistência, modularização e testes).
 
----
-
-Última atualização: 20 de julho de 2026

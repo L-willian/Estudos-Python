@@ -34,6 +34,3 @@ python "Desafios/Desafio1.py"
 - Encapsular lógica em funções para facilitar reuso e testes.
 - Criar testes simples com `unittest` ou `pytest` para validar saídas esperadas.
 
----
-
-Última atualização: 20 de julho de 2026

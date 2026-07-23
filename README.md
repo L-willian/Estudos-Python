@@ -42,6 +42,3 @@ python "Mini-Projetos Integradores/Sistema de Cadastro de Produtos.py"
 
 Para dúvidas ou sugestões, abra uma issue no repositório.
 
----
-
-Última atualização: 20 de julho de 2026
