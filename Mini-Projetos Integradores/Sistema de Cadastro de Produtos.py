@@ -40,9 +40,8 @@ def remover_produto(estoque, nome):
     produto = buscar_produto(estoque, nome)
     if produto:
         estoque.remove(produto)
-        print(f"Produto '{nome}' removido do estoque.")
-    else:
-        print(f"Produto '{nome}' não encontrado no estoque.")
+        return True
+    return False
 
 
 
@@ -56,7 +55,10 @@ while True:
 
     opcao = input("Escolha uma opção: ")
     if opcao == "1":
-        cadastrar_produto(estoque, input("Nome do produto: "), float(input("Preço do produto: ")), int(input("Quantidade do produto: ")))
+        nome = input("Nome do produto: ")
+        preco = float(input("Preço do produto: "))
+        quantidade = int(input("Quantidade do produto: "))
+        cadastrar_produto(estoque, nome, preco, quantidade)
     elif opcao == "2":
         listar_produtos(estoque)
     elif opcao == "3":
@@ -68,7 +70,10 @@ while True:
             print(f"Produto '{nome}' não encontrado.")
     elif opcao == "4":
         nome = input("Digite o nome do produto que deseja remover: ")
-        remover_produto(estoque, nome)
+        if remover_produto(estoque, nome):
+            print(f"Produto '{nome}' removido com sucesso.")
+        else:
+            print(f"Produto '{nome}' não encontrado.")
     elif opcao == "5":
         print("Saindo do sistema...")
         break
